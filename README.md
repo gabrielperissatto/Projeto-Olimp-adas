@@ -9,8 +9,9 @@ O objetivo principal é extrair informações relevantes de um conjunto de dados
 - Uma lista dos países que tiveram apenas atletas de um único gênero (masculino ou feminino) entre seus medalhistas.
  
 Componentes do Projeto
-cod_olimp.py: O coração do projeto. Este script em Python é responsável por ler o arquivo de dados, processar cada entrada, realizar a contagem das medalhas por país e analisar a distribuição de gênero dos atletas premiados.
-medalhas_atualizado.csv: A fonte de dados. Este arquivo contém a listagem detalhada de cada medalha, incluindo informações como o tipo da medalha, o nome do atleta, gênero, modalidade e o país correspondente.
+- cod_olimp.py: O coração do projeto. Este script em Python é responsável por ler o arquivo de dados, processar cada entrada, realizar a contagem das medalhas por país e analisar a distribuição de gênero dos atletas premiados.
+
+- medalhas_atualizado.csv: A fonte de dados. Este arquivo contém a listagem detalhada de cada medalha, incluindo informações como o tipo da medalha, o nome do atleta, gênero, modalidade e o país correspondente.
 Como Funciona
 O script cod_olimp.py é executado através da linha de comando, recebendo o nome do arquivo .csv como argumento. Ele lê os dados, seleciona as colunas de interesse (país, tipo de medalha e gênero) e realiza os cálculos necessários para apresentar os resultados finais de forma organizada no terminal.
 
